@@ -1,0 +1,62 @@
+body{
+    background:linear-gradient(violet,green);
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+}
+#myImg{
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 3px rgb(42, 4, 254);
+}
+#btn{
+    color: white;
+    background-color: rgb(187, 135, 37);
+    
+    cursor: pointer;
+    box-shadow: 3px 3px 3px aqua;
+}
+#btn:hover{
+    background-color: rgb(247, 163, 6);
+}
+#btn:active{
+    background-color: rgb(247, 163, 6);
+}
+
+
+#btn-2{
+    color: white;
+    background-color: rgb(184, 35, 35);
+    box-shadow: 3px 4px 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px aqua;
+}
+#btn-2:hover{
+    background-color: rgb(255, 0, 0);
+}
+#btn-2:active{
+    background-color: rgb(255, 0, 0);
+}
+
+
+.img-5{
+    height: 100px;
+    width: 100px;
+}
+.NAME{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+    color: red;
+}
